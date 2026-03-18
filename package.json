@@ -1,11 +1,10 @@
 {
-  "name": "yt-downloader",
+  "name": "backend",
   "version": "1.0.0",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "node node_modules/yt-dlp-exec/scripts/postinstall.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
