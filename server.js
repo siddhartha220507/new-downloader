@@ -1,6 +1,8 @@
 const express = require("express");
 const cors = require("cors");
-const ytdlp = require("yt-dlp-exec");
+const ytdlp = require("yt-dlp-exec").create({
+  binary: require("yt-dlp-exec/bin")
+});
 
 const app = express();
 app.use(cors());
